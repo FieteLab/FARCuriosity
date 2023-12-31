@@ -8,7 +8,18 @@ Official implementation for **[Neuro-Inspired Fragmentation and Recall to Overco
 </p>
 
 ## Usage
-Code will be released soon.
+Install packages.
+
+```
+pip install -r requirements.txt
+```
+
+Run Experiments.
+
+```
+python launch.py -alg ppo -curiosity_alg rnd -env jamesbond -lstm -sample_mode gpu -num_gpus 1 -normalize_advantage -normalize_reward -dual_value -normalize_obs -fragmentation -recall -use_feature -use_wandb
+```
+
 
 ## Citation
 ```
