@@ -24,7 +24,7 @@ python launch.py -alg ppo -curiosity_alg rnd -env jamesbond -lstm -sample_mode g
 ## Citation
 ```
 @inproceedings{hwang2023neuro,
-    author = {Jaedong, Hwang and Hong, Zhang-Wei and Chen, Eric and Boopathy, Akhilan and Agrawal, Pulkit and Fiete, Ila},
+    author = {Hwang, Jaedong and Hong, Zhang-Wei and Chen, Eric and Boopathy, Akhilan and Agrawal, Pulkit and Fiete, Ila},
     title = {Neuro-Inspired Fragmentation and Recall to Overcome Catastrophic Forgetting in Curiosity},
     booktitle={NeurIPSW 2023 (Intrinsically Motivated Open-ended Learning)},
     year = {2023},
